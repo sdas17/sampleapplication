@@ -1,0 +1,86 @@
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .left-section {
+    width: 65%;
+    background: url('samaritasloginImage1.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+    /* background-color: #fff; */
+  }
+  
+  .text-content {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #fff;
+    font-size: 32px;
+    max-width: 400px;
+    /* font-family: Montserrat; */
+  }
+  
+  .right-section {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .login-form-container {
+    width: 350px;
+    padding: 40px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 200px;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .login-button {
+    width: 100%;
+    background-color: #915bb8;
+    border-color: #915bb8;
+  }
+  
+  .login-button:hover {
+    background-color: #4d2670;
+    border-color: #4d2670;
+  }
+  
+  .forgot-password-link {
+    float: right;
+    color: #6a3a8c;
+  }
+  
+  .forgot-password-link:hover {
+    color: #4d2670;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .left-section {
+      display: none;
+    }
+  
+    .right-section {
+      width: 100%;
+    }
+  
+    .login-form-container {
+      width: 90%;
+    }
+  }
+  
